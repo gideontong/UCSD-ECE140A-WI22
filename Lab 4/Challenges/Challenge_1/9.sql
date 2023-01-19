@@ -1,0 +1,1 @@
+SELECT AVG(speechiness) FROM Songs HAVING COUNT(artist) > 3;

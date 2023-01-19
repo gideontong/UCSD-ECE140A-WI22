@@ -1,2 +1,3 @@
-# UCSD-ECE140A-WI22
-ECE 140A: Product Engineering
+# ECE 140A
+
+> Gideon Tong (PID: A15960885)

@@ -1,0 +1,1 @@
+SELECT artist FROM Songs WHERE SUM(duration_ms) GROUP BY artist ORDER BY SUM(duration_ms);

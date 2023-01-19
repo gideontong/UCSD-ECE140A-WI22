@@ -1,0 +1,1 @@
+SELECT COUNT(DISTINCT artist) AS artists FROM Songs;

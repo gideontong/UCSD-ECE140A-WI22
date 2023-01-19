@@ -1,0 +1,1 @@
+SELECT * FROM grades INNER JOIN students ON grades.student_id = students.id;

@@ -1,0 +1,1 @@
+DELETE FROM TestUsers WHERE last_name='Zuckerberg';

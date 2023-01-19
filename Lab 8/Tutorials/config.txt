@@ -1,0 +1,5 @@
+dtparam=spi=on
+dtoverlay=pi3-disable-bt
+core_freq=250
+enable_uart=1
+force_turbo=1

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ECE 140A Rest DB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="simple.css">
+</head>
+
+<body>
+    <h1>Our Awesome Class!</h1>
+    <h2> {{ page_name }} </h2>
+
+    <table class="stylish-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Password</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {# loop through the records and render them #}
+            {% for student in students %}
+            <tr>
+                <td>{{ student[0] }}</td>
+                <td>{{ student[1] }}</td>
+                <td><a href="/student/{{ student[0] }}">{{ student[2] }}</a></td>
+                <td>{{ student[3] }}</td>
+                <td>{{ student[4] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+</body>
+
+</html>

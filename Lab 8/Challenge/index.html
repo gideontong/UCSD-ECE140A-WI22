@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Final</title>
+    <script type="text/javascript" src="rest.js"></script>
+</head>
+
+<body>
+    <h1>Final Fruit Finder or something liek that :)</h1>
+    <form>
+        <label for="fruit">Find Fruit</label>
+        <select name="fruit" id="fruit">
+            <option value=1>Apple</option>
+            <option value=2>Orange</option>
+            <option value=3>Banana</option>
+        </select>
+    </form>
+    <button type="button" onclick="select();">show the fruit I selected</button>
+    <button type="button" onclick="clicked();">debug button</button>
+    <div>
+        <div id="selection">ITEM:</div>
+        <div id="hl">LOW HUE:</div>
+        <div id="sl">LOW SATURATION:</div>
+        <div id="vl">LOW VALUE:</div>
+        <div id="hh">HIGH HUE:</div>
+        <div id="sh">HIGH SATURATION:</div>
+        <div id="vh">HIGH VALUE:</div>
+        <div id="error">ERROR: None</div>
+    </div>
+    <h3>found_objects</h3>
+    <button type="button" onclick="store();">store stuff</button>
+    <p>Coming soon! (doesn't actually needed to be displayed on this page but I did want it to)</p>
+</body>
+
+</html>

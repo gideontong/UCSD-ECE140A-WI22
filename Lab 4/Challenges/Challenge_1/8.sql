@@ -1,0 +1,1 @@
+SELECT COUNT(song) FROM Songs HAVING tempo > AVG(tempo);

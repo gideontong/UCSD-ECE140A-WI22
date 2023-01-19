@@ -1,0 +1,1 @@
+SELECT song FROM Songs WHERE song LIKE (SELECT artist FROM Songs);
